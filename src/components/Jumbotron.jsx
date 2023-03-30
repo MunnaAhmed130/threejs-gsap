@@ -3,6 +3,14 @@ import iPhone from "../assets/images/iphone-14.jpg";
 import holdingIphone from "../assets/images/iphone-hand.png";
 
 const Jumbotron = () => {
+    const handleLearnMore = () => {
+        const element = document.querySelector(".sound-section");
+        window.scrollTo({
+            top: element?.getBoundingClientRect().top,
+            leftf: 0,
+            behavior: "smooth",
+        });
+    };
     return (
         <section className="jumbotron-section wrapper">
             <h2 className="title">New</h2>
@@ -16,7 +24,9 @@ const Jumbotron = () => {
                     <button className="button">Buy</button>
                 </li>
                 <li>
-                    <a className="link">Learn more</a>
+                    <a onClick={handleLearnMore} className="link">
+                        Learn more
+                    </a>
                 </li>
             </ul>
             <img className="iphone-img" src={holdingIphone} alt="iPhone" />
