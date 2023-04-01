@@ -119,6 +119,7 @@ nav .link-styled {
     font-size: 48px;
     font-weight: 600;
     margin-bottom: 18px;
+    text-align: center;
 }
 
 .jumbotron-section .description {
@@ -383,6 +384,8 @@ nav .link-styled {
         opacity: 0;
     }
 }
+
+/* loader */
 
 .loader {
     position: fixed;
