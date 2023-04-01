@@ -189,7 +189,7 @@ nav .link-styled {
     display: flex;
     align-items: center;
     flex-direction: column;
-    /* opacity: 0; */
+    opacity: 0;
 }
 
 .sound-section .title {
@@ -272,7 +272,7 @@ nav .link-styled {
     padding: 50px 0 400px 0;
     height: 100vh;
     box-sizing: border-box;
-    /* opacity: 0; */
+    opacity: 0;
     position: relative;
 }
 
@@ -330,6 +330,8 @@ nav .link-styled {
     bottom: 10px;
     right: 10px;
 }
+
+/*  ------------------  webgi viewer  ------------------ */
 
 #webgi-canvas {
     width: 100%;
